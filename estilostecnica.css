@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin: 0; padding:0; font-family: "akrobat";}
+body {width: 1100px; margin: 0 auto; background-image: url(images/fondoweb.jpg); background-position: center; background-repeat: no-repeat;}
+header {margin: 0 auto; position:relative;}
+header img { display:inline-block; width:100px;}
+header img { margin:14px 0 0 85px;}
+nav { display:inline-block; font-size:14px; position:absolute; right:150px; top:0; margin-top: 50px;}
+nav ul { list-style-type: none;}
+nav ul li { display:inline-block; width:90px; height: 30px; text-align:center; line-height:30px; margin: 0 5px;}
+nav ul li a { text-decoration:none; color:#5D4996;}
+nav ul li.activo {border-bottom: #5D4996 solid 2px; border-radius: 5px;}
+nav li:hover { border-bottom:#5D4996 solid 2px; border-radius: 5px;}
+article, section { margin:10px auto; width:960px; text-align:center;}
+main { margin: 0 0 137px;}
+ul#tecnicas { list-style-type: none; padding:0;}
+ul#tecnicas li { display:inline-block; position:relative; z-index:0;}
+ul#tecnicas li:hover { z-index:10;}
+ul#tecnicas li img { width:250px; height:auto; padding:10px 10px 0px; box-shadow: 0 0 15px rgba(0,0,0,1.00); background:rgba(243,238,247,1.00); transition:all 0.5s;}
+ul#tecnicas li img:hover { transform: scale(1.25,1.25);}
+ul#tecnicas li:nth-of-type(4n+1){ transform: rotate(7deg);}
+ul#tecnicas li:nth-of-type(4n+3){ transform: rotate(-8deg);}
+header, h2, h3 {color:#5D4996; font-size: 35px; margin-bottom: 40px;}
+footer p {text-align: center; font-size: 13px; background-color:#5D4996; color: #FFFFFF; padding:5px 0 3px; margin-bottom: 3px;}
+
+

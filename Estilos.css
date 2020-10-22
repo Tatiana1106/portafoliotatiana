@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding:0; font-family: "akrobat";}
+body {width: 1100px; margin: 0 auto; background-image: url(images/fondoweb.jpg); background-position: center; background-repeat: no-repeat;}
+header {margin: 0 auto; position:relative;}
+header img { display:inline-block; width:100px;}
+header img { margin:14px 0 0 85px;}
+nav { display:inline-block; font-size:14px; position:absolute; right:150px; top:0; margin-top: 50px;}
+nav ul { list-style-type: none;}
+nav ul li { display:inline-block; width:90px; height: 30px; text-align:center; line-height:30px; margin: 0 5px;}
+nav ul li a { text-decoration:none; color:#5D4996;}
+nav ul li.activo {border-bottom: #5D4996 solid 2px; border-radius: 5px;}
+nav li:hover { border-bottom:#5D4996 solid 2px; border-radius: 5px;}
+figure#tati {position: relative;}
+figure#tati img {width: 250px;}
+div#imagen {display: inline-block;}
+article#banner {height: 260px;}
+div#parrafos {width: 750px; display: inline-block; position: absolute; margin:40px 0 0px 40px;}
+div#parrafos h1 {margin: 10px 0; color:#5D4996;}
+div#parrafos p {line-height:25px; padding-top: 10px;}
+article#botones {margin: 30px auto; width: 856px;}
+article#botones ul {list-style-type: none;}
+article#botones ul li { display:inline-block; position:relative; padding: 0 40px; }
+article#botones ul li img {width:200px; transition:all 0.5s;}
+article#botones ul li img:hover { transform:scale(1.15,1.15);}
+figure#tati2 img {width: 200px;}
+div#blue {display: inline-block; padding: 30px 20px 0 80px;}
+div#parrafo2 {width:600px; display:inline-block; position:absolute; margin-top:60px;}
+div#parrafo2 h2 {margin: 20px 0 10px; color:#5D4996;}
+div#parrafos p {line-height: 25px; padding-top: 20px;}
+div#trabajo {display: inline-block; float:right; margin: 65px 80px 0 10px;}
+div#izquierda1 td{vertical-align:top; font-size: 14px; padding-right:10px;}
+div#izquierda1 { width: 500px; display: inline-block; }
+div#izquierda1 h2 {font-size:35px; color:#5D4996; margin-bottom:10px;}
+div#izquierda1 a { font-size:14px; color:#5D4996; padding:5px 20px; text-decoration:none;}
+div#izquierda1 a:hover {background:#5D4996; color: #FFFFFF; border-radius: 10px;}
+div#href { position:relative; float: right; margin: 10px 85px 0 0;}
+input { background:#D9BFFF; border-style:none;}
+textarea { border-style:none; background:#D9BFFF;}
+div#foot { width: 832px; margin:30px auto;}
+div#derecha {width:550; display: inline-block; position:absolute; padding:50px 40px 68px; background-color:#D9BFFF;}
+div#derecha h2{margin-bottom: 20px; font-size:35px; color:#5D4996; text-align: center;}
+div#derecha td {vertical-align:top;  padding-bottom:3px; padding-right:7px;}
+footer p {text-align: center; font-size: 13px; background-color:#5D4996; color: #FFFFFF; padding:5px 0 3px; margin-bottom: 3px;}
